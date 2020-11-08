@@ -17,7 +17,7 @@ function App() {
             <CourseList />
           </Route>
           <Route path="/CourseDetail">
-            <CourseDetail />
+            <CourseDetail/:id? />
           </Route>
         </Switch>
       </>
